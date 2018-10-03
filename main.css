@@ -19,6 +19,7 @@ html {
 span, div, textarea, input, button, i, b, s, h1, h2, h3, h4, h5, h6 {
     font-family: 'Iran', sans-serif;
 }
+
 * {
     font-family: 'Iran', sans-serif;
 }
@@ -51,8 +52,8 @@ header > ul > li {
 header > ul > li:hover {
     border-bottom-color: #297cde;
     box-shadow: 0px 0px 5px #000;
+    text-shadow: 0px 0px 2px #fff;
 }
-
 
 header > ul > li > a {
     color: #fff;
@@ -67,6 +68,7 @@ header > ul > li > a {
     background-image: url(black-linen.png);
     background-color: #333;
     padding-top: 60px;
+    box-shadow: 0px 0px 10px #000;
 }
 
 .bio-box > .image-section {
@@ -85,8 +87,25 @@ header > ul > li > a {
     text-align: right;
     box-sizing: border-box;
     color: #fff;
+    padding-top: 30px;
+}
+
+.bio-section > p {
+    padding: 0px 20px 0px 40px;
 }
 
 .clear {
     clear: both;
+}
+
+.box-works > h2 {
+    text-align: center;
+}
+
+.box-works > .items {
+    font-size: 0px;
+}
+
+.box-works > .items > .item {
+    font-size: medium;
 }
