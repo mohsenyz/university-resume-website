@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Iran';
+    font-style: normal;
+    src: url(iran.woff2) format('woff2');
+}
+    @font-face {
+    font-family: 'Iran';
+    font-style: normal;
+    src: url(iran.woff2) format('woff2'), url(iran.ttf) format("truetype");
+}
+
+body {
+    margin: 0px;
+}
+
+html {
+    font-family: 'Iran', sans-serif;
+}
+span, div, textarea, input, button, i, b, s, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Iran', sans-serif;
+}
+* {
+    font-family: 'Iran', sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: transparent;
+    color: #fff;
+    border-bottom: 3px #fff solid;
+    box-shadow: 0px 0px 10px #000;
+}
+
+header > ul {
+    list-style: none;
+    margin: 0px 15px;
+}
+
+header > ul > li {
+    float: right;
+    padding: 7px 15px;
+    margin: 0px 5px;
+    transition: 0.3s;
+    border-bottom: 3px transparent solid;
+    margin-bottom: -3px;
+}
+
+header > ul > li:hover {
+    border-bottom-color: #297cde;
+    box-shadow: 0px 0px 5px #000;
+}
+
+
+header > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.box {
+    width: 100%;
+}
+
+.bio-box {
+    background-image: url(black-linen.png);
+    background-color: #333;
+    padding-top: 60px;
+}
+
+.bio-box > .image-section {
+    float: right;
+    width: 30%;
+}
+
+.bio-box > .image-section > img {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.bio-section {
+    float: left;
+    width: 60%;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
