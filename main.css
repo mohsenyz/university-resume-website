@@ -109,3 +109,11 @@ header > ul > li > a {
 .box-works > .items > .item {
     font-size: medium;
 }
+
+.box-works > .items > .item > img {
+    width: 30%;
+}
+
+.box-works > .items > .item > .info {
+    width: 70%;
+}
