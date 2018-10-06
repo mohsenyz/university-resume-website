@@ -11,6 +11,10 @@
 
 body {
     margin: 0px;
+    background-image: url(bg-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 html {
@@ -101,6 +105,7 @@ header > ul > li > a {
 
 .box-works > h2 {
     text-align: center;
+    color: #fff;
 }
 
 .box-works > .items {
@@ -114,7 +119,8 @@ header > ul > li > a {
     border-right: 5px #297cde solid;
     margin-top: 30px;
     box-sizing: border-box;
-    box-shadow: 0px 0px 7px #555;
+    box-shadow: 0px 0px 7px #000;
+    background: #fff;
 }
 
 .box-works > .items > .item > img {
@@ -142,6 +148,7 @@ header > ul > li > a {
     transition: 0.3s;
     cursor: pointer;
     margin: 0px 1px;
+    display: inline-block;
 }
 
 .box-works > .items > .item > .info > .info-row > p > span:hover {
